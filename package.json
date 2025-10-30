@@ -1,0 +1,24 @@
+{
+  "name": "kobra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeru1/ai-snake.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aeru1/ai-snake/issues"
+  },
+  "homepage": "https://github.com/aeru1/ai-snake#readme",
+  "devDependencies": {
+    "vite": "^7.1.12"
+  }
+}
