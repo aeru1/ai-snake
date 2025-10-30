@@ -1,3 +1,4 @@
+/* Color pallete - https://coolors.co/palette/3d5a80-98c1d9-e0fbfc-ee6c4d-293241 */
 body {
   margin: 0;
   height: 100vh;
@@ -5,10 +6,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #0f172a;
+  background-color: #293241;
 }
 
 canvas {
   background-color: #1e293b;
-  border: 2px solid #06b6d4;
+  border: 0px solid #293241;
 }
