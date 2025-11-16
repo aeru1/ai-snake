@@ -373,7 +373,7 @@ window.addEventListener('keydown', (e) => {
   if (newDir) {
     // prevent immediate reversal; compare against last queued direction or current
     const lastDir = inputQueue.length > 0 ? inputQueue[inputQueue.length - 1] : player.direction;
-    const isOpposite = newDir.dx === -lastDir.dx && newDir.dy === newDir.dy;
+    const isOpposite = newDir.dx === -lastDir.dx && newDir.dy === -lastDir.dy;
 
     // avoid duplicate directions in the queue (only one instance of each direction)
     const alreadyQueued = inputQueue.some(d => d.dx === newDir.dx && d.dy === newDir.dy);
